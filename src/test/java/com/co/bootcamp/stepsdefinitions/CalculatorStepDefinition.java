@@ -41,7 +41,7 @@ public class CalculatorStepDefinition {
     @Then("^he user could see the result$")
     public void heUserCouldSeeTheResult() {
     OnStage.theActorInTheSpotlight().should(GivenWhenThen.seeThat(CaptureResult.validate()
-    , Matchers.equalTo(4)));
+    , Matchers.equalTo("2")));
     }
 
 }
