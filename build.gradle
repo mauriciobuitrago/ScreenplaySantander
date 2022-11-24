@@ -38,7 +38,6 @@ dependencies {
     implementation group: 'net.serenity-bdd', name: 'serenity-cucumber', version: '1.9.39'
     implementation group: 'org.jvnet.com4j', name: 'com4j', version: '2.1'
 
-
 }
 
 
